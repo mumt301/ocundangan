@@ -1,0 +1,117 @@
+MUMT301-2020 Assignment 1
+QUESTIONNAIRE!
+
+The following questionnaire seeks to understand your previous knowledge about some of the concepts that we will learn in class during the coming term.
+
+1. Do you know any programming languages? If you do, which ones?
+C#, Python, Java, Javascript, C++, C, HTML5, CSS
+
+----
+
+2. What is your primary computer operating system (OS)?
+Windows 10
+
+----
+
+3. Do you own a smartphone, tablet, or mobile device? What is your favourite OS for mobile devices?
+Smartphone - Google Pixel 3A. I also own a Surface Pro 4.. Prefer Android for it's openness/freedom and customizability!
+
+----
+
+4. Do you use any social networking services? If you do, which ones? Why?
+Facebook, LinkedIn, Instagram. I use them to communicate with friends easily.
+
+----
+
+5. Expand the following acronyms and do research about their meaning. You may look them up if you don't know:
+
+    HTTP: Hypertext Transfer Protocol
+    REST: Representational State Transfer
+    API:  Application Programming Interface
+
+----
+
+6. Do you play a musical instrument or sing? If so, how much experience do you have?
+Flute - 2 years
+Alto Saxophone - 2 years
+Violin - 2-3 years
+Guitar - 5-6 years (only instrument I currently play)
+Sing - Some years. I don't really sing but I enjoy it!
+
+----
+
+7. Can you read music notation? If so, how well?
+Yes! Not very well but I think I can mostly understand? I haven't read music notation in a while.
+
+----
+
+8. How large is your personal music collection? Estimate the number of artists, albums, and songs. If instead you listen to music using streaming services, how many playlists, artists, albums, and songs do you have in your account?
+At least 100 distinct albums on my harddrive... My music folder on my harddrive that I used before using streaming services is almost 80 GB in size.
+
+----
+
+9. How do you search and find new music?
+I don't really search for music, but I usually find new music from media I consume (soundtrack from video games/shows/films) or from recommendation algorithms on streaming services (or recommendations from friends).
+
+----
+
+10. Implement a script in your favourite programming language that takes numbers as its input until it receives the command "done." When it reads "done," print out the average of all the numbers that were input.
+Python:
+
+sum = 0
+counter = 1
+while(True):
+	x = input()
+		if x == "done":
+			print("Average: ", int(sum)/(1 if counter == 1 else counter-1))
+			break
+		else:
+			sum += int(x)
+			counter +=1
+----
+
+11. What is Git?
+Git is a version-control system, it allows users to track, make changes, and revert changes made to a desired set of files. It is useful for coordinating and tracking work among teams in a non-linear workflow.
+
+----
+
+12. What is GitHub? Do you have an account? If you do not, create one. Provide your username.
+GitHub is a service that provides hosting for version control using Git, offering the functionality of Git and additional features.
+GitHub username: dlrht
+
+----
+
+13. Are you aware of any ways in which artists are dealing with public performances post-COVID? Do you think live performances are essential to your musical experience?
+I know of a service/platform called YOOP which essentially provides artists a virtual online platform to 
+give live performances. Essentially, people can buy tickets to a performance being held on the YOOP platform, and
+performers go to the YOOP venue to perform on their virtual stage. 
+
+What's unique, though, in comparison to an ordinary one-way livestream, is that the audience also video calls 
+when they are tuned into the performance. The artist visits the YOOP venue to perform on-stage, and at the YOOP venue, 
+in the areas where there would normally be an audience, there is instead a large screen which shows the all of the 
+audience's video feeds and also outputs the audience's microphone (if desired). 
+
+The idea is to allow the performer to see/interact with the audience in as close a way to real-life as possible. With
+YOOP's setup, performer and audience can see each other's faces and interact/communicate orally, as opposed to
+normal livestream setups where the performer is only performing to a camera and the only feedback from the audience
+is through text.
+
+I do not think live performances are essential for my music experience. I have only been to a few live performances and have enjoyed them immensely, but I have listened to most of the music I consumed from recordings.
+I think live performances are great and I would like to go to them but I don't find them essential as I have been
+experiencing music non-live anyway.
+
+----
+
+14. Name two musical artists that you like. What do you find interesting about their music that makes you like them?
+One artist I really like is Jeremy Soule. He's done a lot of video game soundtracks for games I enjoyed, and his 
+compositions add an incredible immersion and atmosphere to the gameplay experiences. Many tracks have stuck with me
+over the years. He's well known for composing The Elder Scrolls soundtracks starting from Morrowind. I also really
+liked his interpretation of music in the Harry Potter universe seen in his soundtrack for the Harry Potter video
+games (which I played a lot as a child). It's his own take and very different from John William's interpretation
+of themes in the HP universe.
+
+I also like a Korean guitarist named Sungha Jung. He makes solo acoustic guitar arrangements of popular songs and
+I really enjoy his arrangements because he really understands the song he is covering. He captures the rhythm and feel
+of the piece while also throwing in his own style. He is a skilled guitarist and he has a very specific sense of style
+to his music that I think sounds very pleasant, unique, and true to the original piece. He has been a large inspiration
+for my guitar playing adventures.

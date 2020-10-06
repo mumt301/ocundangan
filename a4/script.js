@@ -185,7 +185,7 @@ function discography(){
     thead = document.createElement('thead');
     tr = document.createElement('tr');
 
-    headers = ['Song', 'Compression algorithm', 'Quality/Bit-rate', 'Original size', 'Compressed size',
+    headers = ['Song', 'Algorithm', 'Quality/Bit-rate', 'Original size', 'Compressed size',
         'Compression ratio', 'Original audio', 'Compressed audio', 'Residual audio'];
 
     headers.forEach((val, index) => {

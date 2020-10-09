@@ -41,7 +41,7 @@ table_data2 = [
         'algo' : 'OGG',
         'quality' : [0, 3, 6, 10],
         'quality_suffix' : ' / 10',
-        'oSize' : 10501,
+        'oSize' : 10337,
         'cSize' : [ 470, 838, 1448, 3608],
         'filename_prefix' : 'hp'
     },
@@ -50,7 +50,7 @@ table_data2 = [
         'algo' : 'MP3',
         'quality' : [96, 144, 192, 320],
         'quality_suffix' : ' kbps',
-        'oSize' : 10501,
+        'oSize' : 10337,
         'cSize' : [ 705, 1056, 1408, 2346 ],
         'filename_prefix' : 'hp'
     },
@@ -59,7 +59,7 @@ table_data2 = [
         'algo' : 'M4A',
         'quality' : [10, 150, 350, 500],
         'quality_suffix' : ' / 500',
-        'oSize' : 10501,
+        'oSize' : 10337,
         'cSize' : [ 1446, 1446, 1446, 1446 ],
         'filename_prefix' : 'hp'
     },
@@ -68,7 +68,7 @@ table_data2 = [
         'algo' : 'AC3',
         'quality' : [32, 96, 256, 640],
         'quality_suffix' : ' / 640',
-        'oSize' : 10501,
+        'oSize' : 10337,
         'cSize' : [ 235, 704, 1876, 4689 ],
         'filename_prefix' : 'hp'
     },

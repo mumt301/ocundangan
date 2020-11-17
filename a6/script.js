@@ -38,11 +38,6 @@ function displayArtistAlbums(){
 
                     let albums = [];
 
-                    if (response['release-groups'].length == 0){
-                        document.getElementById("discography_table").innerHTML = "<br><p>No album releases under that artist.</p>";
-                        return;
-                    }
-
                     for (i = 0; i < response['release-groups'].length; i++){
                         let release = response['release-groups'][i];
                         if (release['primary-type'] == 'Album'){
@@ -50,6 +45,11 @@ function displayArtistAlbums(){
                             let albumDate = release['first-release-date'];
                             albums.push([albumName, albumDate]);
                         }
+                    }
+
+                    if (albums.length == 0){
+                        document.getElementById("discography_table").innerHTML = "<br><p>No album releases under that artist.</p>";
+                        return;
                     }
 
                     // Sorts list by release date

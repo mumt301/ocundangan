@@ -93,7 +93,7 @@ function display_table(table_data2, songName, artist){
     document.getElementById("discography_table").innerHTML = "";    // clear the content
 
     header = document.createElement('h3');
-    header.innerHTML = `Songs similar to "${songName}" - ${artist}`;
+    header.innerHTML = `Songs similar to "${songName}" by ${artist}`;
 
     let table = document.createElement('table');
     table.id = 'compTable'

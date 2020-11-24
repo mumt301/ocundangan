@@ -1,5 +1,5 @@
 
-const apiRootUrl = "http://ws.audioscrobbler.com/2.0/?";
+const apiRootUrl = "https://ws.audioscrobbler.com/2.0/?";
 const apiKey = "d244d5d20d225c1af32004dfc7216f00";
 const queryResLimit = 5;
 

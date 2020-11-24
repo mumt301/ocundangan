@@ -64,7 +64,7 @@ function displayArtistAlbums(){
                         }
                         songInfo['picUrl'] = "defaultAlbumArt.png";
                         if ('album' in track){
-                            if ('image' in track['album']){
+                            if ('image' in track['album'] && track['album']['image'][2]['#text'].length != 0){
                                 songInfo['picUrl'] = track['album']['image'][2]['#text'];
                             }
                         }

@@ -118,7 +118,7 @@ function display_table(table_data2){
         tr.appendChild(td);
 
         td = document.createElement('td');
-        let innerHtml = `<a href=\"${songInfo['url']}\">"${songInfo['name']}" - ${songInfo['artist']}</a><br>${songInfo['desc']}`;
+        let innerHtml = `<h4><a href=\"${songInfo['url']}\">"${songInfo['name']}" - ${songInfo['artist']}</a></h4><br>${songInfo['desc']}`;
         td.innerHTML = innerHtml;
         tr.appendChild(td);
 

@@ -20,7 +20,7 @@ function displayArtistAlbums(){
             let response = request.response;
             console.log(response);
 
-            if (!'similartracks' in response || 'error' in response){
+            if (!('similartracks' in response) || 'error' in response){
                 document.getElementById("discography_table").innerHTML = `<br><br><b>Error:</b> ${response['message']}.<br>Please ensure your inputs are correct.`;
                 console.log(response['message']);
                 return;

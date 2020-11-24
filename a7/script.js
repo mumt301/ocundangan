@@ -77,7 +77,7 @@ function displayArtistAlbums(){
                         if (numResponses == similarTracks.length){
                             console.log("Got all responses");
                             console.log(similarSongs);
-                            display_table(similarSongs);
+                            display_table(similarSongs, songName, artist);
                         }
                     }
                 }
@@ -89,8 +89,11 @@ function displayArtistAlbums(){
 }
 
 
-function display_table(table_data2){
+function display_table(table_data2, songName, artist, url){
     document.getElementById("discography_table").innerHTML = "";    // clear the content
+
+    header = document.createElement('h2');
+    header.innerHTML = `Songs similar to "${songName}" - ${artist}`;
 
     let table = document.createElement('table');
     table.id = 'compTable'
@@ -130,6 +133,7 @@ function display_table(table_data2){
         tbody.appendChild(tr);
       }
       table.appendChild(tbody);
+      document.getElementById("discography_table").appendChild(header);
       document.getElementById("discography_table").appendChild(table);
 }
 

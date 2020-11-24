@@ -89,10 +89,10 @@ function displayArtistAlbums(){
 }
 
 
-function display_table(table_data2, songName, artist, url){
+function display_table(table_data2, songName, artist){
     document.getElementById("discography_table").innerHTML = "";    // clear the content
 
-    header = document.createElement('h2');
+    header = document.createElement('h3');
     header.innerHTML = `Songs similar to "${songName}" - ${artist}`;
 
     let table = document.createElement('table');

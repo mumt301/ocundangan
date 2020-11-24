@@ -30,7 +30,7 @@ function displayArtistAlbums(){
 
             if (similarTracks.length <= 0){
                 document.getElementById("discography_table").innerHTML = "<br><p>Could not find any similar songs.</p>";
-                console.log("Could not find artist");
+                console.log("Could not find any similar songs.");
                 return;
             }
 

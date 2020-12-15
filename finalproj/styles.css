@@ -8,13 +8,6 @@
   background: #ffffff; /* Just to visualize the extent */
 }
 
-#txtInput{
-  position: absolute;
-  bottom: 1%;
-  left: 1%;
-  width: 50%;
-}
-
 #settingsPanel {
   position: absolute;
   top: 1%;

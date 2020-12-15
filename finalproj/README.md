@@ -1,7 +1,7 @@
 # Customizable PolySynth Visualizer 
 PolySynth Visualizer is a simple static webpage application that takes mouse and keyboard input from user and generates synthesized sounds from a PolySynth using Tone.js while displaying pleasant and relaxing visuals. The voice of the PolySynth is customizable in that the ADSR Envelope and Oscillator can be modified to experiment with synthesizing sounds. 
 
-Every point on the screen space maps to a note and an octave and every keyboard input maps to a point on the screen. Thus, the notes are deterministically generated and the same coordinates will always produce the same note. 
+Every point on the screen space maps to a note and an octave and every keyboard input maps to a point on the screen. Thus, the notes are deterministically generated and the same coordinates will always produce the same note. There is a text input box at the bottom for users to type in (useful for mobile devices). It does not functionally do anything otherwise.
 
 ## Dependencies (Libraries & Frameworks)
 This webpage application makes use of 
